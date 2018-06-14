@@ -5,7 +5,7 @@
 <body>
 <h2>Hello World!</h2>
 <h3>Hello from Sree</h3>
-<h3>Hello from v1</h3>
+<h3>Hello from v2</h3>
 <h2>Current time is <%= LocalDateTime.now() %></h2>
 </body>
 </html>
