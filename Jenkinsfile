@@ -20,6 +20,7 @@ pipeline {
       steps {
         sh '''sudo cp -p ./target/SampleJava1.war /var/lib/tomcat8/webapps/sree-bo2.war
 '''
+        sh 'sudo rm -fr *'
       }
     }
   }
