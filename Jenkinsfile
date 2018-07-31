@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'sudo mvn clean'
+        sh 'pwd;sudo mvn clean'
       }
     }
     stage('Test') {
