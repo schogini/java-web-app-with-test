@@ -1,14 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
-      steps {
-        sh 'pwd;sudo mvn clean'
-      }
-    }
     stage('Test') {
       steps {
         sh 'sudo mvn  test'
+      }
+    }
+    stage('Build') {
+      steps {
+        sh 'sudo mvn package'
       }
     }
     stage('Deploy') {
