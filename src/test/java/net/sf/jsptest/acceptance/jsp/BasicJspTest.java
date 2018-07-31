@@ -30,7 +30,7 @@ public class BasicJspTest extends HtmlTestCase {
 
     public void testRenderingTrivialJsp() throws Exception {
         get("/index.jsp");
-        output().shouldContain("2017");
+        output().shouldContain("2018");
     }
 
     public void testOutputAssertion() throws Exception {
